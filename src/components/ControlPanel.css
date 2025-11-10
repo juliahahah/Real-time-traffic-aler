@@ -1,0 +1,62 @@
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.settings {
+  border-top: 1px solid #e1e8ed;
+  padding-top: 16px;
+  margin-top: 16px;
+}
+
+.setting-item {
+  margin-bottom: 12px;
+}
+
+.setting-item label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 500;
+  color: #2f3640;
+  font-size: 0.85rem;
+}
+
+.setting-item input[type="range"] {
+  width: 100%;
+  margin-bottom: 4px;
+  height: 4px;
+  background: #e1e8ed;
+  border-radius: 2px;
+  outline: none;
+}
+
+.setting-item input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #3742fa;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.setting-item input[type="text"] {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #e1e8ed;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: border-color 0.2s ease;
+}
+
+.setting-item input[type="text"]:focus {
+  outline: none;
+  border-color: #3742fa;
+}
+
+.volume-value {
+  font-weight: 500;
+  color: #57606f;
+  font-size: 0.85rem;
+}
